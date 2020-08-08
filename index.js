@@ -43,7 +43,12 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  if (item not in cart.keys()) {
+    return "That item is not in your cart"
+  }
+  else {
+    Object.values(cart[i])[0]
+  }
 }
 
 function placeOrder(cardNumber) {
