@@ -49,7 +49,7 @@ function removeFromCart(item) {
       index = i
   }
   if (index === -1) {
-    return "That item is not in your cart"
+    return "That item is not in your cart."
   }
   else {
     return "idk"
