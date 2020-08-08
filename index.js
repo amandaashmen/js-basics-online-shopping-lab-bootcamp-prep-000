@@ -43,7 +43,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  if (item not in cart.keys()) {
+  if (item === cart.keys()) {
     return "That item is not in your cart"
   }
   else {
@@ -60,3 +60,5 @@ function placeOrder(cardNumber) {
     return `Your total cost is $${cost}, which will be charged to the card ${cardNumber}.`
   }
 }
+ 
+console.log(cart.keys())
