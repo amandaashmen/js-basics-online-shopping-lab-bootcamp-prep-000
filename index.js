@@ -43,6 +43,8 @@ function total() {
 }
 
 function removeFromCart(item) {
+  index
+  for (let i = 0; i< cart.length; i++)
   if (item === cart.keys()) {
     return "That item is not in your cart"
   }
@@ -61,5 +63,5 @@ function placeOrder(cardNumber) {
   }
 }
 cart = [{a: "ab", b: 2}, {k: 3}]
-console.log(Object.keys(cart[1])[0])
+console.log(Object.values(cart[1])[0])
 console.log(cart.keys())
