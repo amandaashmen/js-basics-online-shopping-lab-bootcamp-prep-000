@@ -65,6 +65,6 @@ function placeOrder(cardNumber) {
     return `Your total cost is $${cost}, which will be charged to the card ${cardNumber}.`
   }
 }
-cart = [{a: 3, b: 2}, {k: 3}]
+cart = [{a: 3, b: 2}, {k: 3, k: 3}]
 console.log(Object.values(cart[0])[0])
 console.log(total())
