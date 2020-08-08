@@ -63,5 +63,5 @@ function placeOrder(cardNumber) {
   }
 }
 cart = [{a: "ab", b: 2}, {k: 3}]
-console.log(Object.values(cart[1])[0])
+console.log(Object.values(cart[0])[0])
 console.log(cart.keys())
